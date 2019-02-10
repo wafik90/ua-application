@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>U.A. Application Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <section id="intro-content">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Boku_no_Hero_Academia_Logo.png" alt="U.A. high school logo">
+ </section>
+
+<h1 id="title">U.A. High School Application</h1>
+<div id="form-content">
+<p id="description">Ready to go become a Pro Hero?</p>
+
+<form id="survey-form" method="GET">
+  
+ <div class="rows">
+  <div class="left">
+  <label id="name-label" for="name">Name:</label>
+   </div>
+  <div class="right">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+   </div>
+  </div>
+
+<div class="rows">
+  <div class="left">
+    <label id="email-label" for="email">Email:</label>
+  </div>
+  <div class="right">
+    <input type="email" name="email" id="email" placeholder="Enter your email" class="input-field" required>
+  </div>
+  </div>
+  
+  <div class="rows">
+    <div class="left">
+      <label id="number-label" for="age">Age:</label>
+    </div>
+    <div class="right">
+    <input type="number" name="age" placeholder="Age" id="number" min="5" max="130" class="input-field">
+    </div>
+  </div>
+  
+  <div class="rows">
+  <div class="left">
+  <label id="quirk-label" for="quirk">What is your quirk?</label>
+   </div>
+  <div class="right">
+        <input autofocus type="text" name="quirk-label" id="quirk-label" class="input-field" placeholder="Enter your Quirk" required>
+   </div>
+  </div>
+  
+  
+  <div class="rows">
+    <div class="left">
+      <label for="recommend">When facing immediate danger, do you:</label>
+    </div>
+    <div class="right">
+      <ul style="list-style: none;">
+        <input type="radio" class="recommend" name="radio" value="1">Spring into action<br>
+        <input type="radio" name="radio" value="2">Analyze the situation and act accordingly<br>
+        <input type="radio" name="radio" value="3">Call the authorities<br>
+   </div>
+  </div>
+  
+  
+  <div class="rows">
+    <div class="left">
+      <label for="dropdown" id="dropdown-label">What is your main combative strategy?</label>
+    </div>
+    <div class="right">
+      <select id="dropdown" name="currentPos" class="dropdown">
+        <option disabled value>Select an option</option>
+        <option value="offensive">Offensive</option>
+        <option value="defensive">Defensive</option>
+        <option value="run-and-hide">Run & Hide</option>
+        </select>
+    </div>
+  </div>
+  
+    <div class="rows">
+      <div class="left">
+        <label for="preferences">Weapons of choice<br>(Check all that apply):</label>
+    </div>
+  <div class="right">
+            <ul id="preferences" style="list-style: none;">
+        <input id="sword" type="checkbox" name="weapon" value="1">Sword<br>
+        <input id="shield" type="checkbox" name="weapon" value="2">Shield<br>
+        <input id="laser-gun" type="checkbox" name="weapon" value="3">Laser Gun<br>
+        <input id="fists" type="checkbox" name="weapon" value="4">Fists<br>
+        <input id="power-pole" type="checkbox" name="weapon" value="5">Power Pole<br>
+        <input id="batarangs" type="checkbox" name="weapon" value="6">Batarangs<br>
+      </div>
+  </div>
+    
+    <div class="rows">
+      <div class="left">
+        <label for="comment">Tell us briefly, why do you want to become a hero?</label>
+      </div>
+      <div class="right">
+        <textarea rows="10" cols="50" id="comment" class="input-field" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Plus Ultra!</button>
+    </form>
+</div>
+</div>
+  </div>
+  
+  
+
+</body>
+
+</html>

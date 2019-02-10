@@ -1,0 +1,81 @@
+body {
+  background-color: #3333cc;
+  text-align: center;
+  color: white;
+  font-family: Comic Sans MS;
+  min-width: 300px;
+}
+
+#form-content {
+	padding: 25px;
+	background: #FFFFFF;
+  color:black;
+	margin: 5px 20%;
+	border: 5px solid #FF0000;
+	border-radius: 30px;
+}
+
+#description {
+	text-align: center;
+	margin-bottom: 35px;
+	font-size: 25px;
+}
+
+.left {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.right {
+  display: inline-block;
+  text-align: left;
+  width: 58%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#recommend {
+  float: left;
+  margin-right: ;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  border: 0px solid;
+}
